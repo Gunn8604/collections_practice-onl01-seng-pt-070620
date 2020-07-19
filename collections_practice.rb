@@ -32,7 +32,6 @@ def sort_array_char_count(array)
     end
   end
     temp
-    #array.select {|e| e.starts_with?("a")}
  end
 
  def sum_array(array)
