@@ -25,10 +25,7 @@ def sort_array_char_count(array)
  end
 
  def find_a(array)
- array.collect |temp|
- yield(array.start_with("a"))
-  end
-  array
+
  end
 
  def sum_array(array)
