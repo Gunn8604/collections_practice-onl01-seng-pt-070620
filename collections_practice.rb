@@ -25,7 +25,14 @@ def sort_array_char_count(array)
  end
 
  def find_a(array)
-    array.select {|e| e.starts_with?("a")}
+    def find_a(array)
+  temp = []
+  array.each do |item|
+  if item.start_with?("a")
+    temp.push'item'
+  end
+ end
+    #array.select {|e| e.starts_with?("a")}
  end
 
  def sum_array(array)
