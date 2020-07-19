@@ -25,7 +25,7 @@ def sort_array_char_count(array)
  end
 
  def find_a(array)
-    array.select {|e| e == a}.
+    array.select {|e| e == a}.starts_with(a)
  end
 
  def sum_array(array)
